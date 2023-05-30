@@ -1,2 +1,2 @@
-# ews-app
-Explore with Shayne Native App
+# app
+React Native app

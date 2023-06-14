@@ -38,7 +38,6 @@ jobs:
           commit_message: Release Version
           commit_user_name: ews-bot
           commit_user_email: bot@explorewithshayne.com
-          commit_author: EWS Bot
 
       - name: Create release
         run: eas build --non-interactive

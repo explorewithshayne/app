@@ -38,11 +38,11 @@ jobs:
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: release-test
+          branch: master
           commit_message: Release Version
           commit_user_name: ews-bot
           commit_user_email: bot@explorewithshayne.com
           commit_author: ews-bot <bot@explorewithshayne.com>
 
       - name: Create release
-        run: eas build --non-interactive
+        run: eas build --non-interactive --platform=android

@@ -24,7 +24,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.explorewithshayne.android",
-      "versionCode": 2
+      "versionCode": "${ env.RELEASE_VERSION }"
     },
     "web": {
       "favicon": "./assets/favicon.png"

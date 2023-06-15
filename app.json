@@ -2,7 +2,7 @@
   "expo": {
     "name": "Explore with Shayne",
     "slug": "ews-app",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,14 +15,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.explorewithshayne.android"
+      "package": "com.explorewithshayne.android",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
